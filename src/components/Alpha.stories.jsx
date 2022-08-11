@@ -10,7 +10,11 @@ export default {
   },
 };
 
-const Template = (args) => <Alpha {...args} />;
+
+const Template = (args) => <div>
+                            <Alpha {...args} />
+                            hello world
+                          </div>;
 
 export const Primary = Template.bind({});
 Primary.args = {
