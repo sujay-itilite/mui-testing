@@ -5,20 +5,20 @@ import Alpha from './Alpha';
 export default {
   title: 'Example/Alpha',
   component: Alpha,
-  argTypes: {
-    backgroundColor: { control: 'color' },
-  },
+  // argTypes: {
+  //   backgroundColor: { control: 'color' },
+  // },
 };
 
 
 const Template = (args) => <div>
                             <Alpha {...args} />
-                            hello world
+                            This is text added into the story
                           </div>;
 
 export const Primary = Template.bind({});
-Primary.args = {
-  primary: true,
-  label: 'Alpha',
-};
+// Primary.args = {
+//   primary: true,
+//   label: 'Alpha',
+// };
 
